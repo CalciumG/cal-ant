@@ -1,0 +1,51 @@
+.pricingBody {
+  background-color: #f7f7ff;
+  height: 100vh;
+  padding-top: 10vh;
+  background-image: url(../bg-bottom.svg), url(../bg-top.svg);
+  background-position: left bottom, right top;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.price {
+  color: #44485b;
+  font-weight: 700;
+  font-size: 4em;
+  margin-bottom: 4px;
+}
+
+.card-text > p {
+  padding: 8px;
+  margin: 0px;
+  font-weight: 700;
+  color: #818191;
+}
+
+hr {
+  border: 0.5px solid rgb(207, 207, 207);
+  width: 90%;
+}
+
+.taller {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ant-card-head-wrapper {
+  padding: 50px;
+}
