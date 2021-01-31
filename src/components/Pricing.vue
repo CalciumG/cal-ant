@@ -1,11 +1,11 @@
 <template>
   <div class="pricingBody">
-    <h1>{{ msg }}</h1>
+    <h1 class="title-text">Our Pricing</h1>
     <br />
     <!-- Switch -->
     <a-row justify="center">
       <a-col :xs="{ span: 2 }" :lg="{ span: 1 }">
-        Monthly
+        <p>Monthly</p>
       </a-col>
       <a-col :xs="{ span: 10 }" :lg="{ span: 1 }">
         <div>
@@ -13,7 +13,7 @@
         </div>
       </a-col>
       <a-col :xs="{ span: 2 }" :lg="{ span: 1 }">
-        Annually
+        <p>Anually</p>
       </a-col>
     </a-row>
 
@@ -28,11 +28,11 @@
             <h1 class="price"><span>$</span>19.99</h1>
             <div class="card-text">
               <hr />
-              <p>card content</p>
+              <p>500 GB Storage</p>
               <hr />
-              <p>card content</p>
+              <p>2 Users Allowed</p>
               <hr />
-              <p>card content</p>
+              <p>Send up to 3 GB</p>
               <hr />
               <br />
               <a-button type="primary"> LEARN MORE </a-button>
@@ -46,11 +46,11 @@
             <h1 class="price"><span>$</span>24.99</h1>
             <div class="card-text">
               <hr />
-              <p>card content</p>
+              <p>1 TB Storage</p>
               <hr />
-              <p>card content</p>
+              <p>5 Users Allowed</p>
               <hr />
-              <p>card content</p>
+              <p>Send up to 10 GB</p>
               <hr />
               <br />
               <a-button type="primary"> LEARN MORE </a-button>
@@ -64,11 +64,11 @@
             <h1 class="price"><span>$</span>39.99</h1>
             <div class="card-text">
               <hr />
-              <p>card content</p>
+              <p>2 TB Storage</p>
               <hr />
-              <p>card content</p>
+              <p>10 Users Allowed</p>
               <hr />
-              <p>card content</p>
+              <p>Send up to 20 GB</p>
               <hr />
               <br />
               <a-button type="primary"> LEARN MORE </a-button>
@@ -82,10 +82,7 @@
 
 <script>
 export default {
-  name: "Pricing",
-  props: {
-    msg: String,
-  },
+  props: {},
   data() {
     return {};
   },
