@@ -34,6 +34,8 @@
               <hr />
               <p>card content</p>
               <hr />
+              <br />
+              <a-button type="primary"> LEARN MORE </a-button>
             </div>
           </a-card>
         </a-col>
@@ -50,6 +52,8 @@
               <hr />
               <p>card content</p>
               <hr />
+              <br />
+              <a-button type="primary"> LEARN MORE </a-button>
             </div>
             <br />
           </a-card>
@@ -66,6 +70,8 @@
               <hr />
               <p>card content</p>
               <hr />
+              <br />
+              <a-button type="primary"> LEARN MORE </a-button>
             </div>
           </a-card>
         </a-col>

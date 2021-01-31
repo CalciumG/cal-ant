@@ -49,3 +49,7 @@ hr {
 .ant-card-head-wrapper {
   padding: 50px;
 }
+
+.ant-btn {
+  width: 90%;
+}
