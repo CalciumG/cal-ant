@@ -9,7 +9,7 @@
       </a-col>
       <a-col :xs="{ span: 10 }" :lg="{ span: 1 }">
         <div>
-          <a-switch default-checked @change="setPriceTerm" />
+          <a-switch default-unchecked @change="setPriceTerm" />
         </div>
       </a-col>
       <a-col :xs="{ span: 2 }" :lg="{ span: 1 }">
